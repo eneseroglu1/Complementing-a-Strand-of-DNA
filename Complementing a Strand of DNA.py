@@ -5,7 +5,7 @@ def reversecomp(dna): # DNA parametresini veriyoruz.
   complement = reversedna.replace('A','t').replace('T','a').replace('G','c').replace('C','g').upper() 
   # ters çevrilmiş DNA'da tamamlayıcıları yerine yazdırıyoruz. Upper komutuyla da harfleri büyütüyoruz 
   return complement 
-  # Oluşan değeri döndürüyoruz. İlerde tekrardan bu fonksiyonu kullanabilmek bu komutu çağırabilmek için bunu yazıyoruz.
+  # Oluşan değeri döndürüyoruz. 
 print("Çıktımız : "+reversecomp('AAAACCCGGT')) # Çıktıyı yazdırıyoruz.
 
 
